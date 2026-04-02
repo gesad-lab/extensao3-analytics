@@ -1,0 +1,67 @@
+column,dtype,missing_pct
+Timestamp,str,0.0
+Em qual semestre do curso de Engenharia de Software você está?,str,54.36
+Você já possui outra graduação?,str,0.0
+Qual é a sua faixa etária?,str,0.0
+Qual é o seu gênero?,str,0.0
+Você concluiu o Ensino Médio em escola pública?,str,0.0
+Quantos anos de experiência em desenvolvimento de software você possui?,str,0.0
+Você está empregado atualmente na área de software?,str,0.0
+Quantos projetos de engenharia de software você participou ao longo de sua carreira?,str,0.0
+Qual papel você mais se identifica em projetos de software?,str,0.0
+Qual o número de membros da maior equipe de projeto em que você já atuou?,str,0.0
+Com que frequência você utiliza ferramentas de IA generativa em seu dia a dia de maneira geral?,str,0.0
+Com que frequência você utiliza ferramentas de IA Generativa especificamente em projetos de engenharia de software?,str,0.0
+Para quais atividades você costuma utilizar ferramentas de IA generativa? (marque todas as que se aplicam),str,0.0
+Quais ferramentas de IA generativa você utilizou nos últimos 12 meses em projetos de engenharia de software? (selecione todas que se aplicam),str,0.0
+Qual metodologia de desenvolvimento de software você mais utilizou em seus projetos?,str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [Ferramentas de IA generativa em Engenharia de Software são úteis.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [IA generativa aumenta minha produtividade na engenharia de software.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [IA generativa melhora a qualidade do software produzido.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [O uso de IA generativa altera o fluxo de desenvolvimento de sistemas.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [É possível utilizar qualquer metodologia de desenvolvimento de software com IA generativa.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [Existe metodologia mais adequada às ferramentas de IA generativa.],str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [O uso de ferramentas de IA generativa exige novas competências que não fazem parte da formação tradicional em Engenharia de Software.],str,0.0
+"Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [Novos papéis profissionais surgirão devido à IA generativa (por exemplo, AI Prompt Engineer, AI Auditor).]",str,0.0
+Avalie seu nível de concordância com as afirmações abaixo relacionadas ao uso de ferramentas de IA generativa em engenharia de software. [Sinto-me confiante em revisar e integrar código gerado por IA generativa.],str,0.0
+A função de backend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+A função de frontend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+A função de QA (Garantia de Qualidade) será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+A função de gerente de projeto será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+A função de Product Manager será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+A função de Scrum Master será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,int64,0.0
+Qual foi o maior benefício que você obteve (ou imagina) ao usar ferramentas de IA generativa em projetos de Engenharia de Software?,str,0.0
+"Em 5 anos, como você enxerga o impacto das ferramentas de IA generativa em sua carreira de engenharia de software?",str,0.0
+"Antes de iniciar o projeto, quão confiante você está de que sua equipe vai entregar um software funcional e de qualidade dentro do prazo?",float64,54.36
+Quais aspectos do projeto você acredita que serão mais desafiadores? (marque todos que se aplicam),str,54.36
+Acredita que as ferramentas de apoio e automação adotadas pela equipe irão agilizar significativamente o desenvolvimento?,float64,54.36
+Você prevê que será necessário revisar ou ajustar significativamente as saídas geradas por ferramentas automatizadas ao longo do projeto?,float64,54.36
+Quão motivado você está para aprender novas técnicas e tecnologias durante a implementação do projeto?,float64,54.36
+"Na sua opinião, o aprendizado obtido durante este projeto será:",str,0.0
+Você acredita que as ferramentas de apoio e automação adotadas pela equipe irão facilitar a colaboração entre os membros da sua equipe?,float64,54.36
+"Para você, qual deve ser o equilíbrio ideal entre a autonomia de cada integrante e a dependência de ferramentas de suporte no desenvolvimento do projeto?",int64,0.0
+Descreva brevemente como você se sente em relação ao projeto que irá desenvolver nesta disciplina.,str,54.36
+Quais expectativas você tem sobre sua própria evolução profissional ao participar deste projeto?,str,0.0
+Você já desenvolveu ou participou de projetos de desenvolvimento de software que usa IA Generativa para realizar alguma(s) funcionalidade(s) ,str,0.0
+Você leu o Termo de Consentimento Livre e Esclarecido acima e concorda com a coleta e o uso dos artefatos que serão gerados por você durante a disciplina para fins de pesquisa?,str,0.0
+cohort,str,0.0
+stage,int64,0.0
+Em qual semestre do curso de Ciências da Computação você está?,str,45.64
+"Em relação ao status atual de seu projeto, quão confiante você está de que sua equipe vai entregar um software funcional e de qualidade dentro do prazo?",float64,45.64
+Quais aspectos do projeto você acredita que foram/são mais desafiadores? (marque todos que se aplicam),str,45.64
+Acredita que as ferramentas de apoio e automação adotadas pela equipe estão/irão agilizando/agilizar significativamente o desenvolvimento?,float64,45.64
+Você precisou/prevê que será necessário revisar ou ajustar significativamente as saídas geradas por ferramentas automatizadas ao longo do projeto?,float64,45.64
+Quão motivado você está para/ficou em aprender novas técnicas e tecnologias durante a implementação do projeto?,float64,45.64
+Você acredita que as ferramentas de apoio e automação adotadas pela equipe estão facilitando/irão facilitar a colaboração entre os membros da sua equipe?,float64,45.64
+Descreva brevemente como você se sente em relação ao projeto que você está desenvolvendo nesta disciplina.,str,45.64
+general_num,int64,0.0
+se_num,int64,0.0
+likert_0,int64,0.0
+likert_1,int64,0.0
+likert_2,int64,0.0
+likert_3,int64,0.0
+likert_4,int64,0.0
+likert_5,int64,0.0
+likert_6,int64,0.0
+likert_7,int64,0.0
+perception_index,float64,0.0

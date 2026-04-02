@@ -13,7 +13,7 @@ from scipy.stats import kruskal, mannwhitneyu, spearmanr
 pd.set_option("display.max_columns", 200)
 plt.rcParams["figure.figsize"] = (10, 6)
 
-REPO_DIR = Path.cwd()
+REPO_DIR = Path.cwd().parent
 BASE = REPO_DIR / "base_files"
 OUT = REPO_DIR / "EDA" / "eda_outputs_multi_cohort_v2"
 OUT.mkdir(parents=True, exist_ok=True)
