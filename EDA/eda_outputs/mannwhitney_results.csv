@@ -1,0 +1,6 @@
+group_col,value_col,group_1,group_2,n_1,n_2,median_1,median_2,u_stat,p_value
+prior_project_with_genai_feature,role_disruption_index,Não,Sim,27,19,2.3333333333333335,2.0,330.0,0.1022229752993481
+employed_in_software,genai_se_frequency_num,Não,Sim,36,10,3.0,3.0,137.5,0.24443398503429636
+prior_project_with_genai_feature,perception_index,Não,Sim,27,19,3.6666666666666665,3.888888888888889,240.0,0.720054527700016
+employed_in_software,perception_index,Não,Sim,36,10,3.7777777777777777,3.6666666666666665,183.0,0.9467039384454731
+prior_project_with_genai_feature,genai_se_frequency_num,Não,Sim,27,19,3.0,3.0,257.5,0.9907383708236207

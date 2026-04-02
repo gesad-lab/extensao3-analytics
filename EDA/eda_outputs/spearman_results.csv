@@ -1,0 +1,17 @@
+x,y,n,spearman_rho,p_value
+General GenAI usage frequency,Belief that automation will speed development,46,0.4200712136168271,0.003655767422942121
+General GenAI usage frequency,Perception index,46,0.39756504257419256,0.0062192776823376305
+SE-specific GenAI usage frequency,Perception index,46,0.3297561518782434,0.025222862853789413
+SE-specific GenAI usage frequency,Belief that automation will speed development,46,0.25882124396627104,0.0824166612314759
+Number of GenAI tools used,Belief that automation will speed development,46,0.24662457121144635,0.09847570088295456
+General GenAI usage frequency,Expected need for revision of automated outputs,46,0.22796475611189224,0.12757772434031525
+Number of GenAI tools used,Perception index,46,0.20777454626058514,0.1658726600574816
+Number of GenAI-supported activities,Belief that automation will speed development,46,0.17667310672232645,0.24017656394157438
+Number of GenAI-supported activities,Perception index,46,0.1743924105583385,0.24639725341167185
+Number of GenAI tools used,Role disruption index,46,-0.10923490651072752,0.4698980955837774
+SE-specific GenAI usage frequency,Role disruption index,46,-0.08854854001073079,0.558420677372917
+Number of GenAI-supported activities,Role disruption index,46,0.06613804791166815,0.6623261173645255
+Number of GenAI tools used,Expected need for revision of automated outputs,46,-0.0422054145416227,0.780630605036723
+Number of GenAI-supported activities,Expected need for revision of automated outputs,46,-0.03732685978276634,0.8054642041305428
+General GenAI usage frequency,Role disruption index,46,0.02769104170433457,0.8550521793635543
+SE-specific GenAI usage frequency,Expected need for revision of automated outputs,46,0.02016467670864273,0.8941830066477932

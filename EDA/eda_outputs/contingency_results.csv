@@ -1,0 +1,4 @@
+row_var,col_var,table_shape,chi2,dof,p_value,cramers_v
+high_se_usage,employed_in_software,"(2, 2)",0.20947585011912478,1,0.6471785377840971,0.06748201855810647
+daily_or_weekly_general_usage,prior_project_with_genai_feature,"(2, 2)",0.03382588415483156,1,0.854077669767751,0.027117251109095287
+high_se_usage,prior_project_with_genai_feature,"(2, 2)",0.0,1,1.0,0.0

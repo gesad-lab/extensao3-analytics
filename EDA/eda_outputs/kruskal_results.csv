@@ -1,0 +1,7 @@
+group_col,value_col,tested_categories,h_stat,p_value
+software_experience,role_disruption_index,"['Nenhuma', 'Menos de 1 ano', '1-3 anos', 'Mais de 5 anos']",8.17153077010304,0.042596560537910284
+software_experience,genai_se_frequency_num,"['Nenhuma', 'Menos de 1 ano', '1-3 anos', 'Mais de 5 anos']",5.183194968334311,0.15886380674318695
+software_experience,perception_index,"['Nenhuma', 'Menos de 1 ano', '1-3 anos', 'Mais de 5 anos']",3.6442939006095387,0.30252421749180713
+semester,genai_se_frequency_num,"['3º semestre', '4º semestre', '5º semestre', '6º semestre', '7º semestre', '8º semestre', '9º semestre']",6.767011790053247,0.34293236363449514
+semester,perception_index,"['3º semestre', '4º semestre', '5º semestre', '6º semestre', '7º semestre', '8º semestre', '9º semestre']",4.022047543690361,0.673692635746718
+semester,role_disruption_index,"['3º semestre', '4º semestre', '5º semestre', '6º semestre', '7º semestre', '8º semestre', '9º semestre']",2.607164631195927,0.8562867258260239
