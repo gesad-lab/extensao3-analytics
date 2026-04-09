@@ -169,10 +169,10 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
     grid = fig.add_gridspec(
         nrows=3,
         ncols=1,
-        height_ratios=[1.3, 2.1, 1.05],
+        height_ratios=[1.45, 2.0, 1.05],
         left=0.04,
         right=0.98,
-        top=0.84,
+        top=0.83,
         bottom=0.05,
         hspace=0.34,
     )
@@ -286,7 +286,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
 
     header_lines = wrap_lines(
         [f"Média do grupo: C {avg_con:+.2f} pp | N {avg_neu:+.2f} pp | D {avg_dis:+.2f} pp"],
-        width=100,
+        width=95,
     )
 
     # Síntese agora exibe a íntegra da coluna \"Análise\" do CSV para cada questão.
@@ -296,7 +296,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         analysis = clean_analysis_text(analysis)
         if not analysis:
             continue
-        q_lines = wrap_lines([f"Q{idx + 1}: {analysis}"], width=110)
+        q_lines = wrap_lines([f"Q{idx + 1}: {analysis}"], width=95)
         lines.extend(q_lines)
         lines.append("")
 
@@ -338,7 +338,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         color=COLORS["sub"],
     )
 
-    fig.subplots_adjust(top=0.885)
+    fig.subplots_adjust(top=0.875)
 
     # Faixa de perguntas, em lista linear.
     ax_q.set_xticks([])
@@ -348,11 +348,11 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
     ax_q.set_ylim(0, 1)
 
     # Área das questões mais alta e com fonte grande; caixa única ocupando toda a largura.
-    line_y = 0.955
-    gap = 0.26
-    text_width = 120
+    line_y = 0.97
+    gap = 0.30
+    text_width = 85
 
-    box_height = gap * n_questions + 0.05
+    box_height = gap * n_questions + 0.08
     ax_q.add_patch(
         plt.Rectangle(
             (0.01, line_y - box_height + 0.03),
