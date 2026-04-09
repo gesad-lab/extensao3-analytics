@@ -12,6 +12,7 @@ Saida:
 from __future__ import annotations
 
 import csv
+import re
 import textwrap
 import unicodedata
 from pathlib import Path
@@ -79,6 +80,22 @@ def wrap_lines(lines: list[str], width: int) -> list[str]:
     for line in lines:
         wrapped.extend(textwrap.wrap(line, width=width) or [line])
     return wrapped
+
+
+def clean_analysis_text(text: str) -> str:
+    """
+    Remove trechos de enunciado duplicados presentes em 'Análise'.
+    1) Exclui tudo que inicia em '##' e vai até imediatamente antes de 'Início do semestre'.
+    2) Mantém somente o trecho após a expressão-chave 'Análise:' (ou 'Analise:').
+    """
+    if not text:
+        return ""
+    cleaned = re.sub(r"##.*?(?=In[ií]cio do semestre)", "", text, flags=re.DOTALL)
+    match = re.search(r"An[aá]lise\s*:\s*(.*)", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    if match:
+        cleaned = match.group(1)
+    cleaned = cleaned.strip(" \n:-")
+    return cleaned if cleaned else text.strip()
 
 
 def compact_question_map(rows: list[dict[str, str]], width: int = 130) -> str:
@@ -167,7 +184,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
     ax_syn = fig.add_subplot(grid[2])
 
     style_card(ax_main, "Gráfico de Barras: Início vs Final")
-    style_card(ax_var, "Gráfico de Variação (pp)")
+    style_card(ax_var, "Gráfico de Variação Média (pp)")
     style_card(ax_syn, "Síntese Analítica")
 
     start_dis = [parse_percent(r[COLS["inicio"]["discorda"]]) for r in rows]
@@ -267,22 +284,24 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         spine.set_color(COLORS["border"])
         spine.set_linewidth(1.2)
 
-    idx_sorted = np.argsort([abs(parse_percent(r[COLS["variacao"]["concorda"]])) for r in rows])[::-1]
-    top_n = min(4, n_questions)
-    selected = sorted(idx_sorted[:top_n])
-
     header_lines = wrap_lines(
         [f"Média do grupo: C {avg_con:+.2f} pp | N {avg_neu:+.2f} pp | D {avg_dis:+.2f} pp"],
-        width=90,
+        width=100,
     )
 
-    lines = header_lines + [""]
-    for idx in selected:
-        lines.append(f"Q{idx + 1}: {keyword_trend(rows[idx])}")
-    if n_questions > top_n:
-        lines.append(f"+{n_questions - top_n} questão(ões) com padrão semelhante")
+    # Síntese agora exibe a íntegra da coluna \"Análise\" do CSV para cada questão.
+    lines: list[str] = header_lines + [""]
+    for idx, row in enumerate(rows):
+        analysis = row.get("Análise") or row.get("Analise") or ""
+        analysis = clean_analysis_text(analysis)
+        if not analysis:
+            continue
+        q_lines = wrap_lines([f"Q{idx + 1}: {analysis}"], width=110)
+        lines.extend(q_lines)
+        lines.append("")
 
-    lines = wrap_lines(lines, width=90)
+    if lines and lines[-1] == "":
+        lines.pop()
 
     ax_syn.text(
         0.02,
@@ -291,7 +310,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         transform=ax_syn.transAxes,
         ha="left",
         va="top",
-        fontsize=14,
+        fontsize=20,
         color="#1f2937",
     )
 
@@ -329,9 +348,9 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
     ax_q.set_ylim(0, 1)
 
     # Área das questões mais alta e com fonte grande; caixa única ocupando toda a largura.
-    line_y = 0.95
+    line_y = 0.955
     gap = 0.26
-    text_width = 90
+    text_width = 120
 
     box_height = gap * n_questions + 0.05
     ax_q.add_patch(
@@ -355,7 +374,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
             wrapped,
             ha="left",
             va="top",
-            fontsize=19,
+            fontsize=20,
             color=COLORS["title"],
             bbox=None,
         )
