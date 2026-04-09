@@ -155,7 +155,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         height_ratios=[1.3, 2.1, 1.05],
         left=0.04,
         right=0.98,
-        top=0.87,
+        top=0.84,
         bottom=0.05,
         hspace=0.34,
     )
@@ -303,17 +303,23 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
         y=0.965,
     )
 
+    subtitle = (
+        f"Grupo: {group_name} — Categorias: Concorda (azul), Neutro (cinza), Discorda (vermelho) | "
+        "Variação em pontos percentuais (pp)"
+    )
+    subtitle_wrapped = "\n".join(textwrap.wrap(subtitle, width=110))
+
     fig.text(
         0.5,
-        0.925,
-        f"Grupo: {group_name} — Categorias: Concorda (azul), Neutro (cinza), Discorda (vermelho) | Variação em pontos percentuais (pp)",
+        0.915,
+        subtitle_wrapped,
         ha="center",
         va="center",
         fontsize=17,
         color=COLORS["sub"],
     )
 
-    fig.subplots_adjust(top=0.91)
+    fig.subplots_adjust(top=0.885)
 
     # Faixa de perguntas, em lista linear.
     ax_q.set_xticks([])
