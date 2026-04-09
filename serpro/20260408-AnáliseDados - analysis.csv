@@ -1,0 +1,106 @@
+Grupo,Perguntas,[INÍCIO] % Discorda ou Discorda Totalmente (<3),[INÍCIO] % Neutro (=3),[INÍCIO] % Concorda ou Concorda Totalmente (>3),[FINAL] % Discorda ou Discorda Totalmente (<3),[FINAL] % Neutro (=3),[FINAL] % Concorda ou Concorda Totalmente (>3),[VARIAÇÃO] % Discorda ou Discorda Totalmente (<3),[VARIAÇÃO] % Neutro (=3),[VARIAÇÃO] % Concorda ou Concorda Totalmente (>3),Análise
+"Utilidade, Produtividade e Qualidade",Ferramentas de IA generativa em Engenharia de Software são úteis.,0.00%,2.17%,97.83%,2.50%,5.00%,92.50%,2.50%,2.83%,-5.33%,"## Ferramentas de IA generativa em Engenharia de Software são úteis.
+Início do semestre: Discorda (0.00%), Neutro (2.17%), Concorda (97.83%).
+Final do semestre: Discorda (2.50%), Neutro (5.00%), Concorda (92.50%).
+Variação: Discorda (2.50%), Neutro (2.83%), Concorda (-5.33%).
+Análise: houve redução na concordância moderada, com aumento da neutralidade (maior indecisão)."
+"Utilidade, Produtividade e Qualidade",IA generativa aumenta minha produtividade na engenharia de software.,0.00%,6.52%,93.48%,2.50%,12.50%,85.00%,2.50%,5.98%,-8.48%,"## IA generativa aumenta minha produtividade na engenharia de software.
+Início do semestre: Discorda (0.00%), Neutro (6.52%), Concorda (93.48%).
+Final do semestre: Discorda (2.50%), Neutro (12.50%), Concorda (85.00%).
+Variação: Discorda (2.50%), Neutro (5.98%), Concorda (-8.48%).
+Análise: houve redução na concordância moderada, com aumento da neutralidade (maior indecisão)."
+"Utilidade, Produtividade e Qualidade",IA generativa melhora a qualidade do software produzido.,8.70%,45.65%,45.65%,10.00%,37.50%,52.50%,1.30%,-8.15%,6.85%,"## IA generativa melhora a qualidade do software produzido.
+Início do semestre: Discorda (8.70%), Neutro (45.65%), Concorda (45.65%).
+Final do semestre: Discorda (10.00%), Neutro (37.50%), Concorda (52.50%).
+Variação: Discorda (1.30%), Neutro (-8.15%), Concorda (6.85%).
+Análise: houve aumento na concordância moderada, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."
+Fluxo e Metodologia de Desenvolvimento,O uso de IA generativa altera o fluxo de desenvolvimento de sistemas.,6.52%,28.26%,65.22%,10.00%,22.50%,67.50%,3.48%,-5.76%,2.28%,"## O uso de IA generativa altera o fluxo de desenvolvimento de sistemas.
+Início do semestre: Discorda (6.52%), Neutro (28.26%), Concorda (65.22%).
+Final do semestre: Discorda (10.00%), Neutro (22.50%), Concorda (67.50%).
+Variação: Discorda (3.48%), Neutro (-5.76%), Concorda (2.28%).
+Análise: houve aumento na concordância leve, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."
+Fluxo e Metodologia de Desenvolvimento,É possível utilizar qualquer metodologia de desenvolvimento de software com IA generativa.,15.22%,45.65%,39.13%,22.50%,32.50%,45.00%,7.28%,-13.15%,5.87%,"## É possível utilizar qualquer metodologia de desenvolvimento de software com IA generativa.
+Início do semestre: Discorda (15.22%), Neutro (45.65%), Concorda (39.13%).
+Final do semestre: Discorda (22.50%), Neutro (32.50%), Concorda (45.00%).
+Variação: Discorda (7.28%), Neutro (-13.15%), Concorda (5.87%).
+Análise: houve aumento na concordância moderada, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."
+Fluxo e Metodologia de Desenvolvimento,Existe metodologia mais adequada às ferramentas de IA generativa.,10.87%,43.48%,45.65%,5.00%,47.50%,47.50%,-5.87%,4.02%,1.85%,"## Existe metodologia mais adequada às ferramentas de IA generativa.
+Início do semestre: Discorda (10.87%), Neutro (43.48%), Concorda (45.65%).
+Final do semestre: Discorda (5.00%), Neutro (47.50%), Concorda (47.50%).
+Variação: Discorda (-5.87%), Neutro (4.02%), Concorda (1.85%).
+Análise: houve aumento na concordância leve, com aumento da neutralidade (maior indecisão)."
+Competências e Papéis,O uso de ferramentas de IA generativa exige novas competências que não fazem parte da formação tradicional em Engenharia de Software.,13.04%,17.39%,69.57%,7.50%,25.00%,67.50%,-5.54%,7.61%,-2.07%,"## O uso de ferramentas de IA generativa exige novas competências que não fazem parte da formação tradicional em Engenharia de Software.
+Início do semestre: Discorda (13.04%), Neutro (17.39%), Concorda (69.57%).
+Final do semestre: Discorda (7.50%), Neutro (25.00%), Concorda (67.50%).
+Variação: Discorda (-5.54%), Neutro (7.61%), Concorda (-2.07%).
+Análise: houve redução na concordância leve, indicando convergência das opiniões, com aumento da neutralidade (maior indecisão)."
+Competências e Papéis,"Novos papéis profissionais surgirão devido à IA generativa (por exemplo, AI Prompt Engineer, AI Auditor).",4.35%,8.70%,86.96%,10.00%,15.00%,75.00%,5.65%,6.30%,-11.96%,"## Novos papéis profissionais surgirão devido à IA generativa (por exemplo, AI Prompt Engineer, AI Auditor).
+Início do semestre: Discorda (4.35%), Neutro (8.70%), Concorda (86.96%).
+Final do semestre: Discorda (10.00%), Neutro (15.00%), Concorda (75.00%).
+Variação: Discorda (5.65%), Neutro (6.30%), Concorda (-11.96%).
+Análise: houve redução na concordância forte, com aumento da neutralidade (maior indecisão)."
+Competências e Papéis,Sinto-me confiante em revisar e integrar código gerado por IA generativa.,19.57%,32.61%,47.83%,7.50%,32.50%,60.00%,-12.07%,-0.11%,12.17%,"## Sinto-me confiante em revisar e integrar código gerado por IA generativa.
+Início do semestre: Discorda (19.57%), Neutro (32.61%), Concorda (47.83%).
+Final do semestre: Discorda (7.50%), Neutro (32.50%), Concorda (60.00%).
+Variação: Discorda (-12.07%), Neutro (-0.11%), Concorda (12.17%).
+Análise: houve aumento na concordância forte, com redução da neutralidade (maior definição de opinião)."
+Impacto nas Funções Atuais Típicas,A função de backend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,56.52%,32.61%,10.87%,57.50%,27.50%,15.00%,0.98%,-5.11%,4.13%,"## A função de backend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (56.52%), Neutro (32.61%), Concorda (10.87%).
+Final do semestre: Discorda (57.50%), Neutro (27.50%), Concorda (15.00%).
+Variação: Discorda (0.98%), Neutro (-5.11%), Concorda (4.13%).
+Análise: houve aumento na concordância leve, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."
+Impacto nas Funções Atuais Típicas,A função de frontend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,43.48%,32.61%,23.91%,47.50%,17.50%,35.00%,4.02%,-15.11%,11.09%,"## A função de frontend será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (43.48%), Neutro (32.61%), Concorda (23.91%).
+Final do semestre: Discorda (47.50%), Neutro (17.50%), Concorda (35.00%).
+Variação: Discorda (4.02%), Neutro (-15.11%), Concorda (11.09%).
+Análise: houve aumento na concordância forte, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."
+Impacto nas Funções Atuais Típicas,A função de QA (Garantia de Qualidade) será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,76.09%,13.04%,10.87%,72.50%,17.50%,10.00%,-3.59%,4.46%,-0.87%,"## A função de QA (Garantia de Qualidade) será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (76.09%), Neutro (13.04%), Concorda (10.87%).
+Final do semestre: Discorda (72.50%), Neutro (17.50%), Concorda (10.00%).
+Variação: Discorda (-3.59%), Neutro (4.46%), Concorda (-0.87%).
+Análise: houve redução na concordância leve, indicando convergência das opiniões, com aumento da neutralidade (maior indecisão)."
+Impacto nas Funções Atuais Típicas,A função de gerente de projeto será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,76.09%,17.39%,6.52%,72.50%,20.00%,7.50%,-3.59%,2.61%,0.98%,"## A função de gerente de projeto será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (76.09%), Neutro (17.39%), Concorda (6.52%).
+Final do semestre: Discorda (72.50%), Neutro (20.00%), Concorda (7.50%).
+Variação: Discorda (-3.59%), Neutro (2.61%), Concorda (0.98%).
+Análise: houve aumento na concordância leve, com aumento da neutralidade (maior indecisão)."
+Impacto nas Funções Atuais Típicas,A função de Product Manager será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,63.04%,30.43%,6.52%,65.00%,32.50%,2.50%,1.96%,2.07%,-4.02%,"## A função de Product Manager será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (63.04%), Neutro (30.43%), Concorda (6.52%).
+Final do semestre: Discorda (65.00%), Neutro (32.50%), Concorda (2.50%).
+Variação: Discorda (1.96%), Neutro (2.07%), Concorda (-4.02%).
+Análise: houve redução na concordância leve, com aumento da neutralidade (maior indecisão)."
+Impacto nas Funções Atuais Típicas,A função de Scrum Master será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).,58.70%,30.43%,10.87%,52.50%,35.00%,12.50%,-6.20%,4.57%,1.63%,"## A função de Scrum Master será extinta ou severamente afetada pelo uso de ferramentas de IA generativa na engenharia de software. Indique seu grau de concordância de 1 (Discordo totalmente) a 5 (Concordo totalmente).
+Início do semestre: Discorda (58.70%), Neutro (30.43%), Concorda (10.87%).
+Final do semestre: Discorda (52.50%), Neutro (35.00%), Concorda (12.50%).
+Variação: Discorda (-6.20%), Neutro (4.57%), Concorda (1.63%).
+Análise: houve aumento na concordância leve, com aumento da neutralidade (maior indecisão)."
+Aplicação no Projeto,"Em relação ao status atual de seu projeto, quão confiante você está de que sua equipe vai entregar um software funcional e de qualidade dentro do prazo?",2.17%,34.78%,63.04%,0.00%,10.00%,90.00%,-2.17%,-24.78%,26.96%,"## Em relação ao status atual de seu projeto, quão confiante você está de que sua equipe vai entregar um software funcional e de qualidade dentro do prazo?
+Início do semestre: Discorda (2.17%), Neutro (34.78%), Concorda (63.04%).
+Final do semestre: Discorda (0.00%), Neutro (10.00%), Concorda (90.00%).
+Variação: Discorda (-2.17%), Neutro (-24.78%), Concorda (26.96%).
+Análise: houve aumento na concordância forte, com redução da neutralidade (maior definição de opinião)."
+Aplicação no Projeto,Acredita que as ferramentas de apoio e automação adotadas pela equipe irão agilizar significativamente o desenvolvimento?,0.00%,8.70%,91.30%,2.50%,22.50%,75.00%,2.50%,13.80%,-16.30%,"## Acredita que as ferramentas de apoio e automação adotadas pela equipe irão agilizar significativamente o desenvolvimento?
+Início do semestre: Discorda (0.00%), Neutro (8.70%), Concorda (91.30%).
+Final do semestre: Discorda (2.50%), Neutro (22.50%), Concorda (75.00%).
+Variação: Discorda (2.50%), Neutro (13.80%), Concorda (-16.30%).
+Análise: houve redução na concordância forte, com aumento da neutralidade (maior indecisão)."
+Aplicação no Projeto,Você precisou/prevê que será necessário revisar ou ajustar significativamente as saídas geradas por ferramentas automatizadas ao longo do projeto?,2.17%,13.04%,84.78%,10.00%,30.00%,60.00%,7.83%,16.96%,-24.78%,"## Você precisou/prevê que será necessário revisar ou ajustar significativamente as saídas geradas por ferramentas automatizadas ao longo do projeto?
+Início do semestre: Discorda (2.17%), Neutro (13.04%), Concorda (84.78%).
+Final do semestre: Discorda (10.00%), Neutro (30.00%), Concorda (60.00%).
+Variação: Discorda (7.83%), Neutro (16.96%), Concorda (-24.78%).
+Análise: houve redução na concordância forte, com aumento da neutralidade (maior indecisão)."
+Motivação e Trabalho em Equipe,Quão motivado você está para/ficou em aprender novas técnicas e tecnologias durante a implementação do projeto?,0.00%,6.52%,93.48%,5.00%,22.50%,72.50%,5.00%,15.98%,-20.98%,"## Quão motivado você está para/ficou em aprender novas técnicas e tecnologias durante a implementação do projeto?
+Início do semestre: Discorda (0.00%), Neutro (6.52%), Concorda (93.48%).
+Final do semestre: Discorda (5.00%), Neutro (22.50%), Concorda (72.50%).
+Variação: Discorda (5.00%), Neutro (15.98%), Concorda (-20.98%).
+Análise: houve redução na concordância forte, com aumento da neutralidade (maior indecisão)."
+Motivação e Trabalho em Equipe,Você acredita que as ferramentas de apoio e automação adotadas pela equipe irão facilitar a colaboração entre os membros da sua equipe?,0.00%,15.22%,84.78%,2.50%,22.50%,75.00%,2.50%,7.28%,-9.78%,"## Você acredita que as ferramentas de apoio e automação adotadas pela equipe irão facilitar a colaboração entre os membros da sua equipe?
+Início do semestre: Discorda (0.00%), Neutro (15.22%), Concorda (84.78%).
+Final do semestre: Discorda (2.50%), Neutro (22.50%), Concorda (75.00%).
+Variação: Discorda (2.50%), Neutro (7.28%), Concorda (-9.78%).
+Análise: houve redução na concordância moderada, com aumento da neutralidade (maior indecisão)."
+Motivação e Trabalho em Equipe,"Para você, qual deve ser o equilíbrio ideal entre a autonomia de cada integrante e a dependência de ferramentas de suporte no desenvolvimento do projeto?",26.09%,54.35%,19.57%,30.00%,42.50%,27.50%,3.91%,-11.85%,7.93%,"## Para você, qual deve ser o equilíbrio ideal entre a autonomia de cada integrante e a dependência de ferramentas de suporte no desenvolvimento do projeto?
+Início do semestre: Discorda (26.09%), Neutro (54.35%), Concorda (19.57%).
+Final do semestre: Discorda (30.00%), Neutro (42.50%), Concorda (27.50%).
+Variação: Discorda (3.91%), Neutro (-11.85%), Concorda (7.93%).
+Análise: houve aumento na concordância moderada, indicando polarização das opiniões, com redução da neutralidade (maior definição de opinião)."

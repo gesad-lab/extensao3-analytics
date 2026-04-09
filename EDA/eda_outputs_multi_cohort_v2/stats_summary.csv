@@ -1,0 +1,5 @@
+test,x,y,stat,p_value,n
+spearman,general_num,perception_index,0.457985408916147,4.285360809749674e-09,149.0
+spearman,se_num,perception_index,0.42034297205416943,9.446061088381185e-08,149.0
+mannwhitney,cohort,perception_index,1586.0,0.311462578285681,
+kruskal,stage,perception_index,0.2728847745536564,0.8724565834113291,
