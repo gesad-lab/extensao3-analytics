@@ -290,7 +290,7 @@ def build_group_panel(group_name: str, rows: list[dict[str, str]], output_file: 
     )
 
     # Síntese agora exibe a íntegra da coluna \"Análise\" do CSV para cada questão.
-    lines: list[str] = header_lines + [""]
+    lines: list[str] = []
     for idx, row in enumerate(rows):
         analysis = row.get("Análise") or row.get("Analise") or ""
         analysis = clean_analysis_text(analysis)
